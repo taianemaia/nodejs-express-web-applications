@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-express-web-applications",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "set DEBUG=app,app:* & nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "0.19.0",
+    "body-parser": "1.19.0",
+    "bootstrap": "4.3.1",
+    "chalk": "2.4.2",
+    "cookie-parser": "1.4.4",
+    "debug": "4.1.1",
+    "ejs": "2.6.2",
+    "express": "4.17.1",
+    "express-session": "1.16.2",
+    "jquery": "3.4.1",
+    "mongodb": "3.3.0",
+    "morgan": "1.9.1",
+    "mssql": "5.1.0",
+    "passport": "0.4.0",
+    "passport-local": "1.0.0",
+    "xml2js": "0.4.19"
+  },
+  "devDependencies": {
+    "eslint": "6.1.0",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-plugin-import": "2.18.2"
+  }
+}
